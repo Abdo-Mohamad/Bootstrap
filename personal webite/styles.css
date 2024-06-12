@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hero {
+    background: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.about-me, .resume, .projects, .contact {
+    background: #f4f4f4;
+}
+
+.about-me p, .resume p, .projects p, .contact p {
+    text-align: left;
+}
